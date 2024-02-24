@@ -381,6 +381,7 @@ header {
 /* get */
 .get {
 	background: url(../img/get_background.jpg)50% 50%/cover no-repeat;
+	margin-bottom: 135px;
 }
 
 .get_input_main {
@@ -403,6 +404,143 @@ header {
 	padding: 13px 0 13px 16px;
 	border: 1px solid #fff;
 }
-.get_inputs{
+
+.get_inputs {
 	margin-bottom: 24px;
+}
+
+.get_input_bottom {
+	margin-bottom: 48px;
+}
+
+.get_btn {
+	background: #7772F1;
+	width: 220px;
+	height: 52px;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	float: right;
+}
+
+.get_txt_bottom {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #fff;
+	max-width: 287px;
+}
+
+/* freequently */
+.freequently_main{
+	margin-bottom: 74px;
+}
+.freequently_left {
+	width: 60%;
+}
+.freequently_right{
+	width: 30%;
+}
+.freequently_tit {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #1E212C;
+}
+
+.panel-default>.panel-heading {
+	color: #333;
+	background-color: #fff;
+	border-color: #e4e5e7;
+	padding: 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.panel-default>.panel-heading a {
+	display: block;
+	padding: 10px 15px;
+}
+
+.panel-default>.panel-heading a:after {
+	content: "";
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	float: right;
+	transition: transform .25s linear;
+	-webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+	background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:before {
+	content: "\2212";
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:before {
+	content: "\002b";
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.accordion-option {
+	width: 100%;
+	float: left;
+	clear: both;
+	margin: 15px 0;
+}
+
+.accordion-option .title {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.accordion-option .toggle-accordion {
+	float: right;
+	font-size: 16px;
+	color: #6a6c6f;
+}
+
+.accordion-option .toggle-accordion:before {
+	content: "Expand All";
+}
+
+.accordion-option .toggle-accordion.active:before {
+	content: "Collapse All";
+}
+.freequently_btn{
+	background: #7772F1;
+    width: 185px;
+    height: 44px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    float: left;
+}
+.freequently_btn_icon{
+	width: 16px;
+	height: 16px;
+	margin-left: 8px;
 }
