@@ -20,7 +20,13 @@
 	.container{
 		max-width: 510px;
 	}
-	
+	.navigation {
+		margin: auto;
+	}
+	.headre_logo{
+		margin: auto;
+		margin-top: 15px;
+	}
 }
 @media screen and (max-width: 540px) {
 	.container{
